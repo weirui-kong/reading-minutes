@@ -1,4 +1,3 @@
-# Database System Concepts 
 Database Theory and Application, 2022 Spring.
 
 W Kong,
@@ -9,11 +8,11 @@ Xi'an Univercity of Science and Technology.
 
 Textbook: ***Database System Concepts***
 
-## Chapter 2 Introduction to the Relational Model
+# Chapter 2 Introduction to the Relational Model
 
 The relational model remains the primary data model for commercial data-processing applications because of its simplicity, which eases the job of the programmer, compared to earlier data models such as the network model or the hierarchical model.
 
-### 2.1 Structure of Relational Databases
+## 2.1 Structure of Relational Databases
 
 A relational database consists of a collection of `tables`, each of which is assigned a unique name.
 
@@ -49,7 +48,7 @@ The schema is:
 department(dept_name, building, budget)
 ```
 
-### 2.3 Keys
+## 2.3 Keys
 A `superkey` is a set of one or more attributes that, taken collectively, allow us to identify **uniquely** a tuple in the relation.
 
 A superkey may contain extraneous attributes. 

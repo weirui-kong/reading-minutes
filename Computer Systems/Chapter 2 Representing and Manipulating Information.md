@@ -1,5 +1,3 @@
-
-# Conputer System Concepts 
 Conputer System Concepts, 2022 Spring.
 
 W Kong,
@@ -10,7 +8,9 @@ Xi'an Univercity of Science and Technology.
 
 Textbook: ***Conputer System: A Programmer's Prospective***
 
+# Chapter 2 Representing and Manipulating Information
 > Tirck: Leonardo Pisano (ca. 1170 to ca. 1250), better known as Fibonacci
+
 
 Three most important representations of numbers: `unsigned`, `signed`, `floating-point`.
 

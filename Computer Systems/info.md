@@ -12,4 +12,4 @@ Textbook: ***Conputer System: A Programmer's Prospective***
 
 Notes summary:
 
-👉 [Chapter 2 Conputer System Concepts](https://github.com/weirui-kong/reading-minutes/blob/main/Computer%20Systems/Chapter%202%20Conputer%20System%20Concepts.md)
+👉 [Chapter 2 Representing and Manipulating Information](https://github.com/weirui-kong/reading-minutes/blob/main/Chapter%202%20Representingand%20Manipulating%20Information.md)
