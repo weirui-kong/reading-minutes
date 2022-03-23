@@ -1,12 +1,4 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
+
 
 # Conputer System Concepts 
 Conputer System Concepts, 2022 Spring.
@@ -53,11 +45,11 @@ The C compiler <u>associates type information</u> with each pointer whether it p
 
 ### 2.1.1 Hexadecimal Notation
 
-A single byte consists of 8 bits whose value ranges from 000000002 to 111111112. When viewed as a decimal integer, its value ranges from $0_{10}$ to $255_{10}$.
+A single byte consists of 8 bits whose value ranges from 000000002 to 111111112. When viewed as a decimal integer, its value ranges from 0<sub>10</sub> to 255<sub>10</sub>.
 
 Binary code is too long and too verbose that we usually use `hexadecimal` numbers to represent binaries.
 
-> We use hexadecimal because every 4-bit binary number just quals a single hex-digit number. Like $0000_{(2)}$ euals $0_{(16)}$ and $1111_{(2)}$ euals $F_{(16)}$ 
+> We use hexadecimal because every 4-bit binary number just quals a single hex-digit number. Like 0000<sub>2</sub> euals 0<sub>16</sub> and 1111<sub>2</sub> euals F<sub>16</sub> 
 
 Example:
 Suppose a given the number `0x173A4C`
@@ -80,9 +72,9 @@ The result is `0x3CADB`.
 
 ### 2.1.2 Data Sizes
 
-Every computer has a `word` size, indicating the nominal size of `pointer` data, which caps the maximum size of the virtual memory address of a computer. For a machine with a $w$-bit word size, the virtual addresses can range from $0$ to $2^w-1$, giving the program access to at most $2^w$ bytes.
+Every computer has a `word` size, indicating the nominal size of `pointer` data, which caps the maximum size of the virtual memory address of a computer. For a machine with a w-bit word size, the virtual addresses can range from 0 to 2 <sup>w</sup>-1, giving the program access to at most 2<sup>w</sup> bytes.
 
-Nowadays the most common personal computers run on  64-bit machines and systems while 32-bit is becoming less and less. And the maximum memory size extends from $2^{32}$ bits (4 *Gigabits*) to $2^{64}$ bits (16 *Exabytes*).
+Nowadays the most common personal computers run on  64-bit machines and systems while 32-bit is becoming less and less. And the maximum memory size extends from 2<sup>32</sup> bits (4 *Gigabits*) to 2<sup>64</sup> bits (16 *Exabytes*).
 
 > Meanwhile, many of 64-bit operating systems still support 32-bit programs.
 
