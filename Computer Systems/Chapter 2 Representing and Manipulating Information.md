@@ -86,6 +86,55 @@ linux> gcc -m64 prog.c
 ```
 to compile programs with spercific word-size.
 
+Typical data size in C declaration:
+|||||
+|-|-|-|-|
+|signed|unsigned|32-bit|64-bit|
+|char|unsigned char|1|1|
+|short|unsigned short|2|2|
+|int|unsigned|4|<u>***4***</u>|
+|long|unsigned long|<u>***4***</u>|8|
+|**`int32_t`**|**`uint32_t`**|4|4|
+|**`int64_t`**|**`uint64_t`**|8|8|
+|char *||4|8|
+|float||4|4|
+|double||8|8|
+
+> `int` on a ***64-bit*** machine occupies 4 bytes
+> 
+> `int` and `long` on a ***32-bit*** machine have the same memory size and range
+> 
+> To avoid the vagaries of relying on “typical” sizes and different compiler settings, ISO C99 introduced a class of data types where the data sizes are fixed regardless of compiler and machine settings. Among these are data types int32_t and int64_t, having exactly 4 and 8 bytes, respectively. Using fixed-size integer types is the best way for programmers to have close control over data represen- tations.
+
+> Aside: With the transition to 64-bit machines, many hidden word size dependencies have arisen as bugs in migrating these programs to new machines. For example, many programmers historically assumed that an object declared as type int could be used to store a pointer. This works fine for most 32-bit programs, but it leads to problems for 64-bit programs.
+
+
+The C language allows a variety of ways to order the keywords and to include or omit optional keywords. These declarations have identical meaning:
+```c
+unsigned long var;
+unsigned long int var;
+long unsigned var;
+long unsigned int var;
+```
+
+### 2.1.3 Addressing and Byte Ordering
+
+ We must establish two conventions: 
+ - what the address of the object will be
+ - and how we will order the bytes in memory.
+
+In virtually all machines, a multi-byte object is stored as a **contiguous sequence** of bytes.
+
+`Little endian` and `Big endian` are two ways of storing multibyte data-types ( int, float, etc). In little endian machines, last byte of binary representation of the multibyte data-type is stored first. On the other hand, in big endian machines, first byte of binary representation of the multibyte data-type is stored first. 
+Suppose integer is stored as 4 bytes then a variable x with value 0x01234567 will be stored as following.
+
+![endian](./../src/1081648042029_.pic.jpg)
+
+> **Most** Intel-compatible machines operate exclusively in little-endian mode. On the other hand, most machines from IBM and Oracle (arising from their acquisition of Sun Microsystems in 2010) operate in big-endian mode.
+> 
+> Many recent microprocessor can operate as either little- or big-endian machines, aka `bi-endian`.
+
+
 ## 2.2 Integer Representations 
 ## 2.3 Integer Arithmetic 
 ## 2.4 Floating Point 
