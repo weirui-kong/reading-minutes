@@ -7,7 +7,7 @@ Software Engineering 2002,
 
 Xi'an Univercity of Science and Technology.
 
-Textbook: `Database System Concepts`
+Textbook: ***Database System Concepts***
 
 ## Chapter 2 Introduction to the Relational Model
 
