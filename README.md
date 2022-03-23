@@ -6,7 +6,9 @@ Xi'an Univercity of Science and Technology.
 
 # Available & on-writing:
 
-still working on it...
+👉 [Computer Systems](https://github.com/weirui-kong/reading-minutes/blob/main/Computer%20Systems/info.md)
+
+👉 [Database System](https://github.com/weirui-kong/reading-minutes/blob/main/Database%20Systems/info.md)
 
 ```txt
 Copyrights:
