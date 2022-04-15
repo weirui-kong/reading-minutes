@@ -130,9 +130,11 @@ Suppose integer is stored as 4 bytes then a variable x with value 0x01234567 wil
 
 ![endian](./../src/1081648042029_.pic.jpg)
 
-> **Most** Intel-compatible machines operate exclusively in little-endian mode. On the other hand, most machines from IBM and Oracle (arising from their acquisition of Sun Microsystems in 2010) operate in big-endian mode.
+> **Most** Intel-compatible machines operate exclusively in little-endian mode. On the other hand, most machines from IBM and Oracle (arising from their acquisition of Sun ‘；
+> ’Microsystems in 2010) operate in big-endian mode.
 > 
 > Many recent microprocessor can operate as either little- or big-endian machines, aka `bi-endian`.
+> 
 
 
 ## 2.2 Integer Representations 

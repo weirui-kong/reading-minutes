@@ -78,3 +78,6 @@ Difference between Primary and Candidate Key:
 
 >简而言之，`primary key`是最小唯一标识符，有且只能有一个，不可能为空值。因为它是来确定每一个`tuple`的关键元素，比如学生学号；`candidate key`可以有多个，甚至有的`attribute`可以是空值，大多数情况可以用 student(class, name,gender) 确定一个学生（因为同班同名同姓的情况几乎很$$少），`candidate key`还可以扩充集合。
 
+<div style="height=100px">
+<u style="color:red;font-size=50px">后续内容由于不涉及实操，暂不阅读；本学期课程结束前完成</u>
+</div>

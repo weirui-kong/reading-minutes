@@ -8,7 +8,28 @@ Xi'an Univercity of Science and Technology.
 
 👉 [Computer Systems](https://github.com/weirui-kong/reading-minutes/blob/main/Computer%20Systems/info.md)
 
+Computer System Concepts, 2022 Spring.
+
+W Kong,
+
+Software Engineering 2002,
+
+Xi'an Univercity of Science and Technology.
+
+Textbook: ***Computer System: A Programmer's Prospective***
+
 👉 [Database Systems](https://github.com/weirui-kong/reading-minutes/blob/main/Database%20Systems/info.md)
+
+Database Theory and Application, 2022 Spring.
+
+W Kong,
+
+Software Engineering 2002,
+
+Xi'an Univercity of Science and Technology.
+
+Textbook: ***Database System Concepts***
+
 
 ```txt
 Copyrights:
